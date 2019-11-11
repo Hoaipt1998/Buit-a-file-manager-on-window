@@ -1,0 +1,5 @@
+D:\DOAN1\Demo4\Multi-RenameTool\bin\Debug\Multi-RenameTool.exe.config
+D:\DOAN1\Demo4\Multi-RenameTool\bin\Debug\Multi-RenameTool.exe
+D:\DOAN1\Demo4\Multi-RenameTool\bin\Debug\Multi-RenameTool.pdb
+D:\DOAN1\Demo4\Multi-RenameTool\obj\Debug\Multi-RenameTool.exe
+D:\DOAN1\Demo4\Multi-RenameTool\obj\Debug\Multi-RenameTool.pdb

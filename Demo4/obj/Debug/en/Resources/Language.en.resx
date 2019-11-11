@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="and_text" xml:space="preserve">
+    <value>and</value>
+    <comment>General</comment>
+  </data>
+  <data name="btnBack_text" xml:space="preserve">
+    <value>Back</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopyNamesWithPathToClipboard_text" xml:space="preserve">
+    <value>Copy Names With Path To Clipboard</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopySelectedNameToClipboard_text" xml:space="preserve">
+    <value>Copy Selected Name To Clipboard</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopyToClipboardWithAllDetail_text" xml:space="preserve">
+    <value>Copy To Clipboard With All Detail</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopyToClipboardWithPathDetails_text" xml:space="preserve">
+    <value>Copy To Clipboard With Path Details</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopyToClipBoard_text" xml:space="preserve">
+    <value>Copy Selected Item To Clipboard</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCopy_text" xml:space="preserve">
+    <value>F5 - Copy</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnCutToClipBoard_text" xml:space="preserve">
+    <value>Cut Selected Item To Clipboard</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnDelete_text" xml:space="preserve">
+    <value>F8 - Delete</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnEdit_text" xml:space="preserve">
+    <value>F4 - Edit</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnEqual_text" xml:space="preserve">
+    <value>Source=Target</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnExchange_text" xml:space="preserve">
+    <value>Source&lt;-&gt;Target</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnExit_text" xml:space="preserve">
+    <value>Alt + F4 - Exit</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnFoward_text" xml:space="preserve">
+    <value>Foward</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnInvertSelection_text" xml:space="preserve">
+    <value>Invert Selection</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnMergeFile_text" xml:space="preserve">
+    <value>Merge File</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnMove_text" xml:space="preserve">
+    <value>F6 - Move</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnMultiRename_text" xml:space="preserve">
+    <value>Multi-Rename</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnNewFolder_text" xml:space="preserve">
+    <value>F7 - New folder</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnNotepad_text" xml:space="preserve">
+    <value>Notepad</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnQuit_text" xml:space="preserve">
+    <value>Quit</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnReload_text" xml:space="preserve">
+    <value>Reload</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnRename_text" xml:space="preserve">
+    <value>Rename</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnSearch_text" xml:space="preserve">
+    <value>Search</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnSelectAllWithSameExt_text" xml:space="preserve">
+    <value>Select All With Same Extension</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnSelectAll_text" xml:space="preserve">
+    <value>Select All</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnShowDetail_text" xml:space="preserve">
+    <value>Detail</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnShowList_text" xml:space="preserve">
+    <value>List</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnShowTree1_text" xml:space="preserve">
+    <value>Show Tree 1</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnShowTree2_text" xml:space="preserve">
+    <value>Show Tree 2</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnShowTree_text" xml:space="preserve">
+    <value>Show Tree</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnSplitFile_text" xml:space="preserve">
+    <value>Split File</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnUnselectAll_text" xml:space="preserve">
+    <value>Unselect All</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnView_text" xml:space="preserve">
+    <value>F3 - View</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnZipCompress_text" xml:space="preserve">
+    <value>Zip Compress</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="btnZipExtract_text" xml:space="preserve">
+    <value>Zip Extract</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel!</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="Cancel_text" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>General</comment>
+  </data>
+  <data name="clmAttr_text" xml:space="preserve">
+    <value>Attr</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="clmDate_text" xml:space="preserve">
+    <value>Date</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="clmExt_text" xml:space="preserve">
+    <value>Ext.</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="clmName_text" xml:space="preserve">
+    <value>Name</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="clmSize_text" xml:space="preserve">
+    <value>Size</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="confirmation_text" xml:space="preserve">
+    <value>Confirmation</value>
+    <comment>frmDelete</comment>
+  </data>
+  <data name="Copy_text" xml:space="preserve">
+    <value>Copy</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="copy_to_text" xml:space="preserve">
+    <value>Copy to:</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="Days_text" xml:space="preserve">
+    <value>Day(s)</value>
+    <comment>General</comment>
+  </data>
+  <data name="delete?_text" xml:space="preserve">
+    <value>Do you really want to move the selected item to recycle bin?</value>
+    <comment>frmDelete</comment>
+  </data>
+  <data name="directories_text" xml:space="preserve">
+    <value>directories</value>
+    <comment>General</comment>
+  </data>
+  <data name="dirs_text" xml:space="preserve">
+    <value>dirs</value>
+    <comment>General</comment>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Done</value>
+    <comment>frmcopy</comment>
+  </data>
+  <data name="done!" xml:space="preserve">
+    <value>Done!</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="error_text" xml:space="preserve">
+    <value>Error</value>
+    <comment>General</comment>
+  </data>
+  <data name="files_text" xml:space="preserve">
+    <value>files</value>
+    <comment>General</comment>
+  </data>
+  <data name="file_exist" xml:space="preserve">
+    <value>File Exist</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="folder_exist" xml:space="preserve">
+    <value>Folder exist</value>
+    <comment>frmNewFolder</comment>
+  </data>
+  <data name="folder_name_text" xml:space="preserve">
+    <value>Folder Name</value>
+    <comment>frmNewFolder</comment>
+  </data>
+  <data name="frmMain_text" xml:space="preserve">
+    <value>File Manager Application</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="frmSearch_btnCancle_text" xml:space="preserve">
+    <value>Cancle</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_btnGoToFile_text" xml:space="preserve">
+    <value>Go To File</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_btnNewSearch_text" xml:space="preserve">
+    <value>New Search</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_btnSearch_text" xml:space="preserve">
+    <value>Start Search</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_btnSearch_text_stop" xml:space="preserve">
+    <value>Stop</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_chkDateBetween_text" xml:space="preserve">
+    <value>Date between: </value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_chkFileSize_text" xml:space="preserve">
+    <value>File size:</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_chkNotOlderThan_text" xml:space="preserve">
+    <value>Not older than:</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_chkOlderThan_text" xml:space="preserve">
+    <value>Older than:</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_chkSubFolder_text" xml:space="preserve">
+    <value>Sub Folder</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_found_text" xml:space="preserve">
+    <value>found</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_searchabout_text" xml:space="preserve">
+    <value>- search aborted</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_tabAdvanced_text" xml:space="preserve">
+    <value>Advanced</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_tabGeneral_text" xml:space="preserve">
+    <value>General</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_text" xml:space="preserve">
+    <value>Find Items</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_txtSearchFor_text" xml:space="preserve">
+    <value>Search for</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_txtSearchIn_text" xml:space="preserve">
+    <value>Search In</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="frmSearch_txtSearchResult_text" xml:space="preserve">
+    <value>Search Result</value>
+    <comment>frmSearch</comment>
+  </data>
+  <data name="Hours_text" xml:space="preserve">
+    <value>Hour(s)</value>
+    <comment>General</comment>
+  </data>
+  <data name="in" xml:space="preserve">
+    <value>in</value>
+    <comment>General</comment>
+  </data>
+  <data name="information_text" xml:space="preserve">
+    <value>Information</value>
+    <comment>General</comment>
+  </data>
+  <data name="Items_text" xml:space="preserve">
+    <value>Items</value>
+    <comment>General</comment>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuAbout_text" xml:space="preserve">
+    <value>About</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuCommand_text" xml:space="preserve">
+    <value>Commands</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuFile_text" xml:space="preserve">
+    <value>Files</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuMark_text" xml:space="preserve">
+    <value>Mark</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuProperties_text" xml:space="preserve">
+    <value>Properties...</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menuShow_text" xml:space="preserve">
+    <value>Show</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menu_language_text" xml:space="preserve">
+    <value>Languages</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="menu_show_text" xml:space="preserve">
+    <value>Show</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="Minutes_text" xml:space="preserve">
+    <value>Minute(s)</value>
+    <comment>General</comment>
+  </data>
+  <data name="Months_text" xml:space="preserve">
+    <value>Month(s)</value>
+    <comment>General</comment>
+  </data>
+  <data name="move_text" xml:space="preserve">
+    <value>Move</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="move_to_text" xml:space="preserve">
+    <value>Move to:</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="name_text" xml:space="preserve">
+    <value>Name</value>
+    <comment>frmNewFolder</comment>
+  </data>
+  <data name="NewName_text" xml:space="preserve">
+    <value>New Name:</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="new_folder_text" xml:space="preserve">
+    <value>New folder (directory) :</value>
+    <comment>frmNewFolder</comment>
+  </data>
+  <data name="no_item_selected" xml:space="preserve">
+    <value>No item selected</value>
+    <comment>General</comment>
+  </data>
+  <data name="OK_text" xml:space="preserve">
+    <value>OK</value>
+    <comment>General</comment>
+  </data>
+  <data name="source_item" xml:space="preserve">
+    <value>Source items:</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="status_text" xml:space="preserve">
+    <value>Status</value>
+    <comment>frmCopy</comment>
+  </data>
+  <data name="text_free" xml:space="preserve">
+    <value>free</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="text_of" xml:space="preserve">
+    <value>of</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="Vietnamese" xml:space="preserve">
+    <value>Tiếng Việt</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="view_detail_text" xml:space="preserve">
+    <value>View Detail</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="view_list_text" xml:space="preserve">
+    <value>View List</value>
+    <comment>frmMainForm</comment>
+  </data>
+  <data name="Weeks_text" xml:space="preserve">
+    <value>Week(s)</value>
+    <comment>General</comment>
+  </data>
+  <data name="Years_text" xml:space="preserve">
+    <value>Year(s)</value>
+    <comment>General</comment>
+  </data>
+</root>
